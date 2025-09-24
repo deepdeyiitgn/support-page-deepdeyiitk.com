@@ -1,7 +1,39 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="hi">
 <head>
-  <meta http-equiv="refresh" content="0; url=https://docs.google.com/forms/d/e/1FAIpQLSdqcVijtxP2qtiwFtuS-NFBL9_Pnbf6WwiydLnzh4nbxQWy1Q/viewform" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human Verification • Secure Access</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body></body>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="head">
+        <div class="logo">🔒</div>
+        <div>
+          <h1>Secure Verification</h1>
+          <div class="sub">Please complete the challenge to continue</div>
+        </div>
+      </div>
+      <div id="challengeArea"></div>
+      <div class="footer">
+        <div id="status" class="badge">Initializing…</div>
+      </div>
+      <div class="note">Tip: Once verified, you won't need to verify again for 6 hours on this browser.</div>
+    </div>
+  </div>
+
+  <!-- Core utilities -->
+  <script src="utils.js"></script>
+
+  <!-- Challenge modules -->
+  <script src="text.js"></script>
+  <script src="math.js"></script>
+  <script src="dot.js"></script>
+  <script src="slider.js"></script>
+
+  <!-- Page controller -->
+  <script src="main.js"></script>
+</body>
 </html>
