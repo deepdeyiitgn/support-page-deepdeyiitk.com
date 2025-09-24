@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40" alt="wave" />
 </p>
 
-# MIT License (Enhanced Edition)  
+# License 
 
 Copyright (c) 2025 Deep Dey  
 
