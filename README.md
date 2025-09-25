@@ -79,8 +79,11 @@ text.js             # Canvas-based text CAPTCHA
 math.js             # Arithmetic challenge
 dot.js              # Moving dot challenge
 slider.js           # Slider verification (desktop + mobile)
+puzzle.js           # Human-friendly drag piece verification, bot-resistant system.
 dd.html             # Redirect page; session detection + fallback
 README.md           # Project documentation (this file)
+SECURITY.md         # Guidelines: domain restriction, bot prevention, usage rules
+LICENSE.md          # Modified MIT-style license with credit & domain rules
 ```
 
 ---
