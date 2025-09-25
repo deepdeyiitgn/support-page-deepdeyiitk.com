@@ -31,7 +31,7 @@ function init() {
 
 // Randomly select a challenge type
 function renderChooser() {
-  const types = ['text', 'math', 'dot', 'slider'];
+  const types = ['text', 'math', 'dot', 'slider', 'puzzle']; // <--- puzzle add kiya
   const t = types[Math.floor(Math.random() * types.length)];
   area.innerHTML = ''; // clear previous
 
@@ -48,6 +48,9 @@ function renderChooser() {
     case 'slider':
       sliderChallenge(area, onSuccess);
       break;
+   case 'puzzle':        // <--- new case
+     puzzleChallenge(area, onSuccess);
+    break;
     default:
       console.error('Unknown challenge type');
       break;
